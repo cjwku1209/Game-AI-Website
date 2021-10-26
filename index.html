@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Game AI</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <!-- <img style="width: 100%" src="./images/GameAI.png"/> -->
+    <!-- <div id="main-img" /> -->
+    <picture style="width: 100%;">
+        <source style="width: 100%;" media="(max-width: 799px)" srcset="./images/mobile-banner.png">
+        <source media="(min-width: 800px)" srcset="./images/GameAI.png">
+        <img style="width: 100%;" src="./images/GameAI.png" alt="Game AI banner">
+      </picture>
+    <div style="padding-left: 5%; padding-right: 5%;">
+        <h1 style="color: #FBBC05">
+            摘要:
+        </h1>
+        <p style="font-size: 20px;">
+            Game AI可以說是近年來最熱門的AI課程的教學素材,包含MIT等都在課程中以之做為訓練與評量學生學習的工具,更是Google自AlphaGo之後非常重視的領域。結合清華大學胡敏君教授團隊,清華大學朱宏國教授團隊,以及成功大學蘇文鈺老師團隊,2021年暑期跨校,跨實驗室,開發2D/3D遊戲,移植到PAIA線上AI競賽教學平台(Playful A.I. Arena),測試遊戲與平台穩定度,籌劃2022年運算學院Game AI競賽。
+        </p>
+        <!-- <h1 >
+            About the Program
+        </h1>
+        <div>
+            <b>
+                Who can apply:
+            </b>
+            <br/>
+            <br/>
+            <div>
+                <b>Experience needed:</b>
+            </div>
+        </div> -->
+        <h1 style="color: #4285F4; padding-top: 2%">
+            導師:
+        </h1>
+        <div class="mentor">
+            <div class="profile">
+                <img src="./images/anita.jpg" alt="Avatar" class="avatar">
+                <div class="profileName">
+                    胡敏君
+                </div>
+                <div class="occupation">
+                    國立清華大學 教授
+                </div>
+            </div>
+            <div class="profile">
+                <img src="./images/james.png" alt="Avatar" class="avatar">
+                <div class="profileName">
+                    朱宏國
+                </div>
+                <div class="occupation">
+                    國立清華大學 教授
+                </div>
+            </div>
+            <div class="profile">
+                <img src="./images/Wen-Yu-Su.png" alt="Avatar" class="avatar">
+                <div class="profileName">
+                    蘇文鈺
+                </div>
+                <div class="occupation">
+                    國立成功大學 教授
+                </div>
+            </div>
+
+        </div>
+        <h1 style="color: #34A853; padding-top: 2%">
+            課程表: 
+        </h1>
+        <h2>
+            Day 1: AI Day
+        </h2>
+        <div class="mdc-data-table" style="max-width: 100%; width: 100%">
+            <div class="mdc-data-table__table-container">
+              <table class="mdc-data-table__table" aria-label="Time">
+                <thead>
+                  <tr class="mdc-data-table__header-row">
+                    <th class="mdc-data-table__header-cell" role="columnheader" scope="col"> <b>Time</b></th>
+                    <th class="mdc-data-table__header-cell" role="columnheader" scope="col"><b>Event</b></th>
+                  </tr>
+                </thead>
+                <tbody class="mdc-data-table__content">
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">9:30-10:40</th>
+                    <td class="mdc-data-table__cell ">Opening and Keynote</td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">10:40-11:00</th>
+                    <td class="mdc-data-table__cell ">Coffee Break</td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">11:00-12:30</th>
+                    <td class="mdc-data-table__cell">
+                        Research Life Experience Sharing by Prof. Min-Chun Hu
+                    </td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">12:30-13:30</th>
+                    <td class="mdc-data-table__cell ">Lunch Time</td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">13:30-15:00</th>
+                    <td class="mdc-data-table__cell ">AI Tutorial (I)</td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">15:00-15:20</th>
+                    <td class="mdc-data-table__cell ">Coffee Break</td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">15:20-17:00</th>
+                    <td class="mdc-data-table__cell ">AI Tutorial (II)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+        <h2 style="padding-top: 2%;">
+            Day 2: XR Day
+        </h2>
+        <div class="mdc-data-table" style="max-width: 100%; width: 100%">
+            <div class="mdc-data-table__table-container">
+              <table class="mdc-data-table__table" aria-label="Time">
+                <thead>
+                  <tr class="mdc-data-table__header-row">
+                    <th class="mdc-data-table__header-cell" role="columnheader" scope="col"> <b>Time</b></th>
+                    <th class="mdc-data-table__header-cell" role="columnheader" scope="col"><b>Event</b></th>
+                  </tr>
+                </thead>
+                <tbody class="mdc-data-table__content">
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">9:30-10:40</th>
+                    <td class="mdc-data-table__cell ">Keynote II</td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">10:40-11:00</th>
+                    <td class="mdc-data-table__cell ">Coffee Break</td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">11:00-12:30</th>
+                    <td class="mdc-data-table__cell">
+                        Research Life Experience Sharing by Prof. Hung-Kuo Chu
+                    </td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">12:30-13:30</th>
+                    <td class="mdc-data-table__cell ">Lunch Time</td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">13:30-15:00</th>
+                    <td class="mdc-data-table__cell ">XR Tutorial (I)</td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">15:00-15:20</th>
+                    <td class="mdc-data-table__cell ">Coffee Break</td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">15:20-17:00</th>
+                    <td class="mdc-data-table__cell ">XR Tutorial (II)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+        <h2 style="padding-top: 2%;">
+            Day 3: Brainstorming Day / Competition Day
+        </h2>
+        <div class="mdc-data-table" style="max-width: 100%; width: 100%">
+            <div class="mdc-data-table__table-container">
+              <table class="mdc-data-table__table" aria-label="Time">
+                <thead>
+                  <tr class="mdc-data-table__header-row">
+                    <th class="mdc-data-table__header-cell" role="columnheader" scope="col"> <b>Time</b></th>
+                    <th class="mdc-data-table__header-cell" role="columnheader" scope="col"><b>Event</b></th>
+                  </tr>
+                </thead>
+                <tbody class="mdc-data-table__content">
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">9:30-10:00</th>
+                    <td class="mdc-data-table__cell ">Real Case Problems related to AI&XR Introduced by TAVAR</td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">10:00-12:30</th>
+                    <td class="mdc-data-table__cell ">Group Brainstorming and Mentor Time <br/>(Help the teams to set main functionalities)</td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">12:30-13:30</th>
+                    <td class="mdc-data-table__cell">
+                        Lunch Time
+                    </td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">13:30-15:00</th>
+                    <td class="mdc-data-table__cell ">Group Brainstorming Mentor Time </br>(Help the teams to design the userflow and draft the system framework)</td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">15:00-17:00</th>
+                    <td class="mdc-data-table__cell ">Group Presentation</td>
+                  </tr>
+                  <tr class="mdc-data-table__row">
+                    <th class="mdc-data-table__cell" scope="row">17:00-17:30</th>
+                    <td class="mdc-data-table__cell ">Closing</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+       
+        <h1 style="padding-top: 2%;">
+            Contact Us
+        </h1>
+        <p style="padding-bottom: 5%;">
+            Any further questions about the program? Send us email at
+        </p>
+    </div>  
+</body>
+</html>
