@@ -5,3 +5,7 @@ $(document).ready(function(){
         $(this).tab('show')
       })
 });
+
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+    target: '#gameAINavbar'
+  })

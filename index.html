@@ -32,8 +32,8 @@
     <title>Game AI</title>
     <script src="gameai.js"></script>
 </head>
-<body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+<body data-bs-spy="scroll" data-bs-target="#gameAINavbar" style="position: relative;">
+    <nav id="top" class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id="gameAINavbar">
         <div class="container-fluid">
             <a 
                 class="navbar-brand" 
@@ -49,27 +49,27 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">
+                    <a class="nav-link active" aria-current="page" href="#top">
                         首頁
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">關於寒假營</a>
+                    <a class="nav-link" href="#about">關於寒假營</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">活動安排</a>
+                    <a class="nav-link" href="#schedule">活動安排</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">寒假營導</a>
+                    <a class="nav-link" href="#mentors">寒假營導</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">主辦與協辦單位</a>
+                    <a class="nav-link" href="#sponsors">主辦與協辦單位</a>
                 </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div style="background-image: url('./images/banner-new.png'); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; text-align: center; color: white; padding-top: 180px; padding-bottom: 100px; padding-left: 30px; padding-right: 30px; width: 100%; height: 600px">
+    <div id="top" style="background-image: url('./images/banner-new.png'); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; text-align: center; color: white; padding-top: 180px; padding-bottom: 100px; padding-left: 30px; padding-right: 30px; width: 100%; height: 600px">
         <div style="background-color: rgba(204, 204, 204, 0.7); padding-bottom: 5px;">
 			<h1 style="color: black; font-weight: bold; font-family: 'Noto Sans TC', sans-serif; font-size: 70px;">
 				2022 玩 AI 闖天關寒假營
@@ -85,7 +85,7 @@
 		</div>
 		
     </div>
-    <div style="margin: 40px">
+    <div id="about" style="margin: 40px">
         <div style="text-align: center; padding-top: 60px; padding-bottom: 60px; font-family: 'Noto Sans TC', sans-serif; font-weight: 100; color: #676770; letter-spacing: 5px;">
             <h1>
                 2022 玩 AI 闖天關寒假營是什麼？
@@ -110,7 +110,7 @@
             快點繼續看看詳細資訊吧！⬇️
         </p>
     </div>
-    <div>
+    <div id="schedule">
         <div style="padding: 40px; padding-top: 100px; padding-bottom: 100px; background-color: #edeff2;">
             <h1 style="line-height: 20px; font-family: 'Noto Sans TC', sans-serif; font-weight: bold;">
                 參與時間與地點
@@ -297,7 +297,7 @@
                   </div>
                 </div>
             </div>
-			<div style="padding-top: 100px;">
+			<div id="mentors" style="padding-top: 100px;">
 				<h1 style="text-align: center; font-weight: bold;">寒假營導</h1>	
 				<p style="color: #6a859c; text-align: center; padding-top: 10px; font-size: 20px;">
 					此次寒假營，特別由國立清華大學資訊工程系與國立成功大學資訊工程系教授群，南北大聯手在四天之中為學員們帶來手把手的實作課程！
@@ -400,7 +400,7 @@
 				</div>
 			</div>
     </div>    
-    <div style="margin: 40px; text-align: center; padding-bottom: 50px;" >
+    <div id="sponsors" style="margin: 40px; text-align: center; padding-bottom: 50px;" >
 		<h1 style="font-weight: bold; padding-top: 30px;">
 			主辦與協辦單位
 		</h1>
